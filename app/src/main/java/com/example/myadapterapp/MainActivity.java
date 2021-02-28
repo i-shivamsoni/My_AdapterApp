@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         al = new ArrayList();
         elist = findViewById(R.id.elist);
-        al.add(new Employee(100, "Aman", 80000))
+        al.add(new Employee(100, "Aman", 80000));
         al.add(new Employee(101, "Bman", 90000));
         al.add(new Employee(102, "Cman", 80000));
         al.add(new Employee(103, "Dman", 100000));
